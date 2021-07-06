@@ -463,7 +463,7 @@ all_parameters = list(resnet18.parameters())
 
 #we want last layer to have a faster learningrate 
 without_lastlayer =all_parameters[0: len(all_parameters) -1]
-
+#te
 #so we extract it
 last_param = resnet18.fc.parameters()
 
